@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.box {
+    @apply flex flex-col gap-1;
+}
+
+.title {
+    @apply text-white text-sm font-sans font-bold ;
+}
+
+.user-input {
+    @apply border-2 border-blue-200 outline-0 mt-1 p-1 text-blue-300 rounded-md;
+}
+
+.action-btn {
+    @apply  text-black font-bold font-sans cursor-pointer text-center p-1.5 mt-1 bg-blue-300 sm:w-full md:w-1/4 rounded-md shadow shadow-gray-900;
+}
+
+.indicator-container {
+    @apply flex items-center justify-end gap-2 pr-2 py-2;
+}
+
+.g-indicator {
+    @apply w-5 h-5 rounded-full bg-green-500 cursor-pointer;
+}
+
+.y-indicator {
+    @apply w-5 h-5 rounded-full bg-yellow-500 cursor-pointer;
+}
+
+.r-indicator {
+    @apply w-5 h-5 rounded-full bg-red-500 cursor-pointer;
+}
+
+.card {
+    @apply bg-gray-900/80 p-2 rounded-md;
+}
